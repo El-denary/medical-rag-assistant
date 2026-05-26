@@ -1,0 +1,30 @@
+# === SENSITIVE ===
+.env
+
+# === PYTHON CACHE ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === DATABASE FILES ===
+chat_history.db
+*.db
+
+# === VECTOR DATABASE ===
+chroma_db/
+
+# === JUPYTER ===
+.ipynb_checkpoints/
+
+# === VS CODE ===
+.vscode/
+
+# === VIRTUAL ENVIRONMENT ===
+venv/
+env/
+.venv/
+
+# === OS FILES ===
+.DS_Store
+Thumbs.db
