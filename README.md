@@ -237,8 +237,3 @@ Sending the full conversation history to the LLM on every query grows token usag
 
 **Why SQLite over session state for history?**
 `st.session_state` is wiped every time the browser tab is closed or the app restarts. SQLite persists to disk, so conversations survive restarts and are available across sessions — like a real chat app.
-
----
-
-## License
-MIT
