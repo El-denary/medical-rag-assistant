@@ -221,7 +221,6 @@ CREATE TABLE messages (
 | Variable | Required | Description |
 |---|---|---|
 | `GROQ_API_KEY` | ✅ | Groq API key for LLM inference |
-| `GOOGLE_API_KEY` | ✅ (if using Gemini) | Google Gemini API key |
 
 ---
 
