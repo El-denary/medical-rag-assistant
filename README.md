@@ -119,10 +119,8 @@ User Question → Rewrite Agent → Retriever Agent → Response Agent → Answe
 ├── db.py               # SQLite conversation history
 ├── notebook.ipynb      # Document ingestion notebook
 │
-├── chroma_db/          # Vector database (auto-generated, do not commit)
-├── chat_history.db     # SQLite database (auto-generated, do not commit)
-│
-├── .env                # API keys — never commit this
+├── chroma_db/          # Vector database (auto-generated)
+├── chat_history.db     # SQLite database (auto-generated)
 ├── .env.example        # API key template
 ├── requirements.txt    # Python dependencies
 └── README.md
@@ -160,8 +158,6 @@ Edit `.env`:
 
 ```env
 GROQ_API_KEY="your_key_here"
-# or if using Gemini:
-# GOOGLE_API_KEY="your_key_here"
 ```
 
 ### 4. Ingest your document
